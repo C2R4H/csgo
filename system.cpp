@@ -13,9 +13,10 @@ using namespace std;
 int main(){
   market market;
   market.GetData();
+  market.UrlDecrypter();
   market.GetName();
+
+  cout<<market.ShowPrice()<<endl;
   cout<<market.ShowName()<<endl;
-  cout<<market.ShowCurrency()<<endl;
-  cout<<market.ShowStatrack()<<endl;
-  cout<<market.ShowQuality()<<endl;
+  cout<<market.ShowStatrackW()<<endl;
 }

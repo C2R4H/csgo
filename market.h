@@ -8,6 +8,7 @@ class market{
     string name;
     string quality;
     string hash;
+    string statrack_word;
     bool statrack;
     double price;
     double med_price;
@@ -16,12 +17,15 @@ class market{
   public:
     market();
 
-    string ShowQuality(){return quality;}
-    string ShowName(){return name;}
+    void ChangeHash(string hash){this->hash = hash;}
+    string ShowHash(){return hash;}
     void ChangeName(string name){this->name = name;}
+    string ShowName(){return name;}
     void ChangeQuality(string quality){this->quality = quality;}
-    bool ShowStatrack(){return statrack;}
+    string ShowQuality(){return quality;}
     void ChangeStatrack(bool statrack){this->statrack = statrack;}
+    bool ShowStatrack(){return statrack;}
+    string ShowStatrackW(){return statrack_word;}
     double ShowPrice(){return price;}
     void RefreshPrice(double price){this->price = price;}
     double ShowMedPrice(){return med_price;}
@@ -34,6 +38,7 @@ class market{
     string GetHash(){return hash;}
     void GetData();//Lowest Price \ Median Price \Volume(Quantity)
     void GetName();//Name of the weapon \ Quality \ is Statrack?
+    void UrlDecrypter();//We decrypt the URL (%28->'(')
 };
 
 #endif
