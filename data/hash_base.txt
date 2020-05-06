@@ -1,0 +1,2 @@
+0 https://steamcommunity.com/market/priceoverview/?appid=730&currency=1&market_hash_name=StatTrak%E2%84%A2%20FAMAS%20%7C%20Hexane%20%28Well-Worn%29
+1 https://steamcommunity.com/market/priceoverview/?appid=730&currency=1&market_hash_name=AWP%20%7C%20Fever%20Dream%20%28Field-Tested%29

@@ -48,6 +48,28 @@ Market:
       4.Currency +
 
 
+We need to keep all the hashes in a database:
+1.We refresh all database ? or just chosen numbers ?
+2.if we refresh just chosen numbers how we differentiate them from the other items?
+3.Where do we keep al the item's information ?
+4.How we do access fast and clearly all the item's information?
+5.How do we keep hash's and items organize?
+
+Database:
+  1.We will refresh just chosen numbers +
+  2.We add a item ID +
+  3.In a data file +
+  4.We create a data header hadler +
+  5. ->4
+
+How do we generate items information ?
+How do we store them ?
+How do we access them ?
+
+
+  
+
+
 
 
 
