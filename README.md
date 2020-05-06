@@ -28,7 +28,7 @@ Item:
   4.Hash
   5.Volume
 
-MARKET:
+Market:
   1.Return the item price from steam market +
   2.Return volume +
   3.Return median price +
